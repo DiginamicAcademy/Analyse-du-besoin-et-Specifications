@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="660" viewBox="0 0 960 660" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <title>Le diagramme pieuvre de l'outil de gestion des absences : l'outil au centre, neuf éléments de son environnement autour, trois fonctions principales qui relient deux éléments en traversant l'outil, quatre fonctions contraintes qui relient un élément à l'outil</title>
+  <rect x="1" y="1" width="958" height="658" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+  <text x="20" y="32" font-size="16" font-weight="700" fill="#1f2328">Le diagramme pieuvre de l'outil des absences (lot 1)</text>
+
+  <!-- Fonctions contraintes : un élément relié à l'outil -->
+  <g stroke="#a34a00" stroke-width="2.5" stroke-dasharray="7 5" fill="none">
+    <line x1="360" y1="121" x2="425" y2="277"/>
+    <line x1="600" y1="121" x2="535" y2="277"/>
+    <line x1="360" y1="524" x2="425" y2="363"/>
+    <line x1="600" y1="524" x2="535" y2="363"/>
+  </g>
+
+  <!-- Fonctions principales : deux éléments reliés à travers l'outil -->
+  <g stroke="#1e40af" stroke-width="3.5" fill="none">
+    <path d="M235,180 Q480,394 725,190"/>
+    <path d="M780,226 Q462,357 215,320"/>
+    <path d="M235,460 Q480,246 725,440"/>
+  </g>
+
+  <!-- L'outil -->
+  <ellipse cx="480" cy="320" rx="120" ry="50" fill="#dcfce7" stroke="#1a7f37" stroke-width="3"/>
+  <text x="480" y="315" font-size="15" font-weight="700" fill="#1a7f37" text-anchor="middle">Outil de gestion</text>
+  <text x="480" y="335" font-size="15" font-weight="700" fill="#1a7f37" text-anchor="middle">des absences</text>
+
+  <!-- Éléments de l'environnement -->
+  <g fill="#f6f8fa" stroke="#57606a" stroke-width="1.8">
+    <rect x="45" y="154" width="190" height="52" rx="8"/>
+    <rect x="25" y="294" width="190" height="52" rx="8"/>
+    <rect x="45" y="434" width="190" height="52" rx="8"/>
+    <rect x="725" y="174" width="190" height="52" rx="8"/>
+    <rect x="725" y="414" width="190" height="52" rx="8"/>
+    <rect x="265" y="69" width="190" height="52" rx="8"/>
+    <rect x="505" y="69" width="190" height="52" rx="8"/>
+    <rect x="265" y="524" width="190" height="52" rx="8"/>
+    <rect x="505" y="524" width="190" height="52" rx="8"/>
+  </g>
+  <g font-size="13.5" font-weight="600" fill="#1f2328" text-anchor="middle">
+    <text x="140" y="185">Salarié</text>
+    <text x="120" y="325">Planning des chantiers</text>
+    <text x="140" y="465">Responsable paie</text>
+    <text x="820" y="205">Responsable d'équipe</text>
+    <text x="820" y="445">Logiciel de paie</text>
+    <text x="360" y="100">Règlement intérieur</text>
+    <text x="600" y="100">Droit du travail</text>
+    <text x="360" y="555">RGPD, CSE</text>
+    <text x="600" y="546">Terrain : chantiers,</text>
+    <text x="600" y="564">réseau, gants</text>
+  </g>
+
+  <!-- Étiquettes des fonctions -->
+  <g font-size="12.5" font-weight="700" text-anchor="middle">
+    <rect x="328" y="236" width="44" height="22" rx="11" fill="#ffffff" stroke="#1e40af" stroke-width="1.5"/>
+    <text x="350" y="252" fill="#1e40af">FP1</text>
+    <rect x="603" y="270" width="44" height="22" rx="11" fill="#ffffff" stroke="#1e40af" stroke-width="1.5"/>
+    <text x="625" y="286" fill="#1e40af">FP2</text>
+    <rect x="328" y="372" width="44" height="22" rx="11" fill="#ffffff" stroke="#1e40af" stroke-width="1.5"/>
+    <text x="350" y="388" fill="#1e40af">FP3</text>
+    <rect x="370" y="188" width="44" height="22" rx="11" fill="#ffffff" stroke="#a34a00" stroke-width="1.5"/>
+    <text x="392" y="204" fill="#a34a00">FC1</text>
+    <rect x="545" y="188" width="44" height="22" rx="11" fill="#ffffff" stroke="#a34a00" stroke-width="1.5"/>
+    <text x="567" y="204" fill="#a34a00">FC4</text>
+    <rect x="370" y="432" width="44" height="22" rx="11" fill="#ffffff" stroke="#a34a00" stroke-width="1.5"/>
+    <text x="392" y="448" fill="#a34a00">FC2</text>
+    <rect x="545" y="432" width="44" height="22" rx="11" fill="#ffffff" stroke="#a34a00" stroke-width="1.5"/>
+    <text x="567" y="448" fill="#a34a00">FC3</text>
+  </g>
+
+  <!-- Légende -->
+  <line x1="20" y1="614" x2="70" y2="614" stroke="#1e40af" stroke-width="3.5"/>
+  <text x="80" y="619" font-size="12.5" fill="#1f2328"><tspan font-weight="700" fill="#1e40af">Fonction principale</tspan> : l'outil met en relation deux éléments. C'est sa raison d'être.</text>
+  <line x1="20" y1="640" x2="70" y2="640" stroke="#a34a00" stroke-width="2.5" stroke-dasharray="7 5"/>
+  <text x="80" y="645" font-size="12.5" fill="#1f2328"><tspan font-weight="700" fill="#a34a00">Fonction contrainte</tspan> : l'outil doit s'adapter à un élément. C'est une obligation.</text>
+</svg>

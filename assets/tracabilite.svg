@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="330" viewBox="0 0 900 330" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <title>La chaîne de traçabilité : de l'objectif au test, en passant par le besoin, l'exigence et le cas d'utilisation ou la story</title>
+  <defs>
+    <marker id="vert" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a7f37"/>
+    </marker>
+    <marker id="bleu" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1e40af"/>
+    </marker>
+    <marker id="gris" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#57606a"/>
+    </marker>
+  </defs>
+  <rect x="1" y="1" width="898" height="328" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+  <text x="20" y="32" font-size="16" font-weight="700" fill="#1f2328">La chaîne de traçabilité</text>
+
+  <!-- Justifier : flèche vers l'amont -->
+  <line x1="840" y1="70" x2="60" y2="70" stroke="#1a7f37" stroke-width="2.5" marker-end="url(#vert)"/>
+  <text x="450" y="60" font-size="13" font-weight="700" fill="#1a7f37" text-anchor="middle">vers l'amont : justifier - pourquoi cette exigence existe-t-elle ?</text>
+
+  <!-- Les cinq maillons -->
+  <g font-size="14" font-weight="700" text-anchor="middle">
+    <rect x="25" y="100" width="150" height="110" rx="12" fill="#fef3c7" stroke="#a34a00" stroke-width="2"/>
+    <text x="100" y="130" fill="#a34a00">OBJECTIF</text>
+    <rect x="200" y="100" width="150" height="110" rx="12" fill="#fef3c7" stroke="#a34a00" stroke-width="2"/>
+    <text x="275" y="130" fill="#a34a00">BESOIN</text>
+    <rect x="375" y="100" width="150" height="110" rx="12" fill="#dbeafe" stroke="#1e40af" stroke-width="2"/>
+    <text x="450" y="130" fill="#1e40af">EXIGENCE</text>
+    <rect x="550" y="100" width="150" height="110" rx="12" fill="#dbeafe" stroke="#1e40af" stroke-width="2"/>
+    <text x="625" y="122" fill="#1e40af">CAS D'UTILISATION</text>
+    <text x="625" y="140" fill="#1e40af">OU STORY</text>
+    <rect x="725" y="100" width="150" height="110" rx="12" fill="#dcfce7" stroke="#1a7f37" stroke-width="2"/>
+    <text x="800" y="130" fill="#1a7f37">TEST</text>
+  </g>
+  <g font-size="12" fill="#1f2328" text-anchor="middle">
+    <text x="100" y="158">O2 - aucun chantier</text>
+    <text x="100" y="175">incomplet</text>
+    <text x="100" y="195" fill="#57606a">note de cadrage</text>
+    <text x="275" y="158">B3 - le conducteur</text>
+    <text x="275" y="175">connaît les absences</text>
+    <text x="275" y="195" fill="#57606a">entretien, documents</text>
+    <text x="450" y="158">EF-PLAN-01</text>
+    <text x="450" y="175">RG-05, ENF-SEC-01</text>
+    <text x="450" y="195" fill="#57606a">spécifications</text>
+    <text x="625" y="162">UC-04</text>
+    <text x="625" y="179">Consulter le planning</text>
+    <text x="625" y="195" fill="#57606a">fiche, backlog</text>
+    <text x="800" y="158">T-PLAN-01</text>
+    <text x="800" y="175">T-PLAN-02</text>
+    <text x="800" y="195" fill="#57606a">cahier de recette</text>
+  </g>
+  <g stroke="#57606a" stroke-width="1.8">
+    <line x1="177" y1="155" x2="197" y2="155" marker-end="url(#gris)"/>
+    <line x1="352" y1="155" x2="372" y2="155" marker-end="url(#gris)"/>
+    <line x1="527" y1="155" x2="547" y2="155" marker-end="url(#gris)"/>
+    <line x1="702" y1="155" x2="722" y2="155" marker-end="url(#gris)"/>
+  </g>
+
+  <!-- Vérifier : flèche vers l'aval -->
+  <line x1="60" y1="240" x2="840" y2="240" stroke="#1e40af" stroke-width="2.5" marker-end="url(#bleu)"/>
+  <text x="450" y="263" font-size="13" font-weight="700" fill="#1e40af" text-anchor="middle">vers l'aval : vérifier - comment saura-t-on que ce besoin est satisfait ?</text>
+
+  <text x="450" y="300" font-size="13" fill="#1f2328" text-anchor="middle">Et quand quelque chose change : la chaîne dit tout ce qui est touché - <tspan font-weight="700">l'analyse d'impact</tspan>.</text>
+</svg>

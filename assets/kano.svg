@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <title>Le modèle de Kano : la satisfaction en fonction du degré de réalisation, pour les besoins de base, de performance et d'enthousiasme</title>
+  <defs>
+    <marker id="axe" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#57606a"/>
+    </marker>
+  </defs>
+  <rect x="1" y="1" width="898" height="428" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+  <text x="20" y="32" font-size="16" font-weight="700" fill="#1f2328">Le modèle de Kano</text>
+
+  <!-- Axes -->
+  <line x1="350" y1="395" x2="350" y2="55" stroke="#57606a" stroke-width="1.8" marker-end="url(#axe)"/>
+  <line x1="90" y1="225" x2="625" y2="225" stroke="#57606a" stroke-width="1.8" marker-end="url(#axe)"/>
+  <text x="360" y="68" font-size="13" font-weight="600" fill="#1f2328">client satisfait</text>
+  <text x="360" y="392" font-size="13" font-weight="600" fill="#1f2328">client insatisfait</text>
+  <text x="92" y="246" font-size="12.5" fill="#57606a">besoin absent</text>
+  <text x="625" y="246" font-size="12.5" fill="#57606a" text-anchor="end">besoin pleinement satisfait</text>
+
+  <!-- Performance : droite -->
+  <path d="M105,370 L600,80" fill="none" stroke="#1e40af" stroke-width="3.5"/>
+  <!-- De base : monte vite puis plafonne juste sous la neutralité -->
+  <path d="M110,385 C190,270 320,240 600,232" fill="none" stroke="#a34a00" stroke-width="3.5"/>
+  <!-- Enthousiasme : neutre à gauche, monte fortement à droite -->
+  <path d="M105,218 C380,214 500,180 600,62" fill="none" stroke="#1a7f37" stroke-width="3.5"/>
+
+  <!-- Étiquettes sur les courbes -->
+  <text x="470" y="200" font-size="12.5" font-weight="700" fill="#1e40af" transform="rotate(-30 470 200)">performance</text>
+  <text x="430" y="262" font-size="12.5" font-weight="700" fill="#a34a00">de base</text>
+  <text x="430" y="150" font-size="12.5" font-weight="700" fill="#1a7f37">enthousiasme</text>
+
+  <!-- Légende -->
+  <rect x="650" y="60" width="230" height="100" rx="10" fill="#fef3c7" stroke="#a34a00" stroke-width="2"/>
+  <text x="664" y="84" font-size="13.5" font-weight="700" fill="#a34a00">De base</text>
+  <text x="664" y="104" font-size="12" fill="#1f2328">absent : insatisfaction forte</text>
+  <text x="664" y="121" font-size="12" fill="#1f2328">présent : personne ne le remarque</text>
+  <text x="664" y="144" font-size="12" font-weight="700" fill="#1f2328">jamais exprimé</text>
+
+  <rect x="650" y="172" width="230" height="100" rx="10" fill="#dbeafe" stroke="#1e40af" stroke-width="2"/>
+  <text x="664" y="196" font-size="13.5" font-weight="700" fill="#1e40af">De performance</text>
+  <text x="664" y="216" font-size="12" fill="#1f2328">plus il y en a, plus on est</text>
+  <text x="664" y="233" font-size="12" fill="#1f2328">satisfait</text>
+  <text x="664" y="256" font-size="12" font-weight="700" fill="#1f2328">exprimé, et comparé</text>
+
+  <rect x="650" y="284" width="230" height="100" rx="10" fill="#dcfce7" stroke="#1a7f37" stroke-width="2"/>
+  <text x="664" y="308" font-size="13.5" font-weight="700" fill="#1a7f37">D'enthousiasme</text>
+  <text x="664" y="328" font-size="12" fill="#1f2328">absent : personne ne le regrette</text>
+  <text x="664" y="345" font-size="12" fill="#1f2328">présent : ravissement</text>
+  <text x="664" y="368" font-size="12" font-weight="700" fill="#1f2328">rarement imaginé</text>
+
+  <text x="20" y="418" font-size="11.5" fill="#57606a">D'après Noriaki Kano et al., 1984. Avec le temps, un besoin d'enthousiasme devient de performance, puis de base.</text>
+</svg>
